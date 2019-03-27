@@ -1,0 +1,340 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Fontawesome Font -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!-- Css -->
+      <link rel="stylesheet" href="css/main.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <title>Travelville</title>
+    <body id="home" class="scrollspy">
+        <div class="navbar-fixed">
+            <nav class="teal">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo">Travelville</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                              <a href="#home">Home</a>
+                            </li>
+                            <li>
+                              <a href="#search">Search</a>
+                            </li>
+                            <li>
+                              <a href="#popular">Popular Places</a>
+                            </li>
+                            <li>
+                              <a href="#gallery">Galery</a>
+                            </li>
+                            <li>
+                              <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <ul class="sidenav" id="mobile-nav">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#search">Search</a>
+            </li>
+            <li>
+              <a href="#popular">Popular Places</a>
+            </li>
+            <li>
+              <a href="#gallery">Galery</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Section: Slider -->
+        <section class="slider">
+            <ul class="slides">
+                <li>
+                  <img src="mountain.png"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h2>This is our big Tagline!</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet laboriosam illum consectetur nam laborum aliquid quidem accusantium vero veritatis. Ipsum.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="coffe.png"> <!-- random image -->
+                  <div class="caption left-align">
+                    <h2>We Work With All Budgets</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maxime odit consequuntur impedit iusto temporibus soluta dignissimos molestias nostrum culpa.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="beach.png"> <!-- random image -->
+                  <div class="caption right-align">
+                    <h2>Group & Individual Getaways</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo repudiandae consectetur at iste voluptatibus quas ratione, quasi quibusdam nihil.</h5>
+                  </div>
+                </li>
+              </ul>
+        </section>
+
+     <!-- Section: search -->
+     <section id="search" class="section section-search teal darken-1 white-text center scrollspy">
+       <div class="container">
+         <div class="row">
+           <div class="col s12">
+             <h3>Search Destinations</h3>
+             <div class="input-flied">
+               <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Arub, Cancun, etc...">
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <!-- Section: Icon Boxes -->
+     <section class="section section-icons grey lighten-4 center">
+       <div class="container">
+         <div class="row">
+           <div class="col s12 m4">
+             <div class="card-panel">
+               <i class="material-icons large teal-text">room</i>
+               <h4>Pick where</h4>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, aspernatur.</p>
+             </div>
+           </div>
+
+           <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">store</i>
+              <h4>Travel Shop</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, aspernatur.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">airplanemode_active</i>
+              <h4>Fly Cheap</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, aspernatur.</p>
+            </div>
+          </div>
+         </div>
+       </div>
+     </section>
+
+     <!-- Section: Popular Places -->
+     <section id="popular" class="section section-popular scrollspy">
+        <div class="container">
+          <div class="row">
+            <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="resort4.jpg" alt="">
+                  <span class="card-title">Cancun,Mexico</span>
+                </div>
+                <div class="card-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit at qui sequi dignissimos beatae asperiores?
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="resort2.jpg" alt="">
+                  <span class="card-title">The Bahamas</span>
+                </div>
+                <div class="card-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit at qui sequi dignissimos beatae asperiores?
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="resort3.jpg" alt="">
+                  <span class="card-title">Nova Scotia</span>
+                </div>
+                <div class="card-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit at qui sequi dignissimos beatae asperiores?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </section>
+
+     <!-- Section: Follow -->
+     <section class="section section-follow teal darken-2 white-text center">
+       <div class="container">
+         <div class="row">
+           <div class="col s12">
+             <h4>Follow Travelville</h4>
+             <p>Follow us on social media for spesial offers</p>
+             <a href="#" class="white-text">
+               <i class="fab fa-facebook fa-4x"></i>
+               <i class="fab fa-twitter fa-4x"></i>
+               <i class="fab fa-linkedin fa-4x"></i>
+               <i class="fab fa-google-plus fa-4x"></i>
+               <i class="fab fa-pinterest fa-4x"></i>
+             </a>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <!-- Section: Gallery -->
+     <section id="gallery" class="section section-gallery scrollspy">
+       <div class="container">
+         <h4 class="center">
+            <span class="teal-text">Photo</span> Gallery
+         </h4>
+
+         <div class="row">
+           <div class="col s12 m3">
+             <img src="pantai.png" alt="" class="materialboxed responsive-img">
+           </div>
+           <div class="col s12 m3">
+              <img src="plane.png" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col s12 m3">
+              <img src="nature.png" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col s12 m3">
+              <img src="gunung.png" alt="" class="materialboxed responsive-img">
+            </div>  
+         </div>
+
+         <div class="row">
+            <div class="col s12 m3">
+              <img src="lake.png" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col s12 m3">
+               <img src="building.png" alt="" class="materialboxed responsive-img">
+             </div>
+             <div class="col s12 m3">
+               <img src="coffe.png" alt="" class="materialboxed responsive-img">
+             </div>
+             <div class="col s12 m3">
+               <img src="flower.png" alt="" class="materialboxed responsive-img">
+             </div>  
+          </div>
+
+          <div class="row">
+              <div class="col s12 m3">
+                <img src="bridge.png" alt="" class="materialboxed responsive-img">
+              </div>
+              <div class="col s12 m3">
+                 <img src="city.png" alt="" class="materialboxed responsive-img">
+               </div>
+               <div class="col s12 m3">
+                 <img src="tanahlot.png" alt="" class="materialboxed responsive-img">
+               </div>
+               <div class="col s12 m3">
+                 <img src="waduk.png" alt="" class="materialboxed responsive-img">
+               </div>  
+            </div>
+       </div>
+     </section>
+
+     <!-- Section: Contact -->
+     <section id="contact" class="section section-contact scrollspy">
+       <div class="container">
+         <div class="row">
+           <div class="col s12 m6">
+             <div class="card-panel teal white-text center">
+               <i class="material-icons">email</i>
+               <h5>Contact Us For Booking</h5>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt officia eos culpa illo consectetur id quae. Nisi odit ipsum sapiente.</p>
+             </div>
+             <ul class="collection with-header">
+               <li class="collection-header"><h4>Location</h4></li>
+               <li class="collection-item">Tour in Special region of Yogyakarta</li>
+               <li class="collection-item">Parangtritis Beach</li>
+               <li class="collection-item">Yogyakarta,Bantul,Indonesia</li>
+             </ul>
+           </div>
+           <div class="col s12 m6">
+             <div class="card-panel grey lighten-3">
+               <h5>Please fill out this form</h5>
+               <div class="input-flied">
+                 <input type="text" placeholder="Name">
+               </div>
+               <div class="input-flied">
+                  <input type="text" placeholder="Email">
+                </div>
+                <div class="input-flied">
+                    <input type="text" placeholder="Phone">
+                  </div>
+                <div class="input-flied">
+                  <textarea class="materialize-textarea" placeholder="Enter Message"></textarea>
+               </div>
+               <input type="submit" value="Submit" class="btn">
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <!-- footer -->
+     <footer class="section teal darken-2 white-text center">
+       <p class="flow-text">Travelville &copy; 2019 </p>
+     </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script>
+      //  Sidenav
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+
+      // Slider
+      const slider = document.querySelector('.slider');
+      M.Slider.init(slider, {
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
+
+      // Autocomplete
+      const ac = document.querySelector('.autocomplete');
+      M.Autocomplete.init(ac, {
+        data: {
+          "Aruba": null,
+          "Cancun Mexico": null,
+          "Hawaii": null,
+          "Florida": null,
+          "California": null,
+          "Jamacia": null,
+          "Europe": null,
+        }
+
+      });
+
+      // Material Boxed
+      const mb = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(mb, {});
+
+      //ScrollSpy
+      const ss = document.querySelectorAll('.scrollspy');
+      M.ScrollSpy.init(ss, {});
+
+      </script>
+    </body>
+  </html>
